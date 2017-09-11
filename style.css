@@ -1,0 +1,129 @@
+/*
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective: 2000px;
+	background-color: purple;
+	overflow: hidden;
+}
+.boxes {
+	display: flex;
+}
+.green {
+	background-color: green;
+	width: 500px;
+	height: 200px;
+}
+.orange {
+	background-color: orange;
+	width: 400px;
+	height: 150px;	
+}
+.pink {
+	background-color: pink;
+	width: 300px;
+	height: 100px;	
+}
+.first-button {
+	position: absolute;
+	left: 225px;
+	top: 100px;
+}
+.first-button:link {
+	background-color: purple;
+	color: white;
+}
+.first-button:visited {
+	background-color: black;
+	color: black;
+}
+.first-button:hover {
+	background-color: blue;
+	color: white;
+}
+.first-button:active {
+	background-color: purple;
+	color: white;
+}
+.second-button {
+	position: absolute;
+	left: 650px;
+	top: 70px;
+}
+.third-button {
+	position: absolute;
+	left: 975px;
+	top: 45px;
+}
+
+.accordion {
+	display: flex;
+	animation: fold 5s ease-in-out inflate alternate;
+	transform: scaleX(.75);
+	will-change: transform;
+}
+@keyframes fold {
+	from { transform: scaleX(.75); }
+	to { transform: scaleX(.5); }
+}
+.fold {
+	width: 15vmin;
+	height: 15vmin;
+	margin-left: 2px;
+}
+.fold-one {
+	background: linear-gradient(to left, green, rgba(green, .7));
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+.fold-two {
+	background: linear-gradient(to right , green), rgba(green, .7);
+	clip-path: polygon(0 0%, 100 10%, 100 90%, 0 100%);
+}
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective: 2000px;
+	background-color: #16262E;
+	overflow: hidden;
+}
+
+.accordion {
+	display: flex;
+	animation: fold 5s ease-in-out infinite alternate;
+	transform: scaleX(.75);
+	will-change: transform;
+}
+
+@keyframes fold {
+	from { transform: scaleX(.75); }
+	to { transform: scaleX(.5); }
+}
+
+.fold {
+	width: 15vmin;
+	height: 15vmin;
+	margin-left: 2px;
+}
+
+.fold-one {
+	background: linear-gradient(to left, #3C7A89, rgba(#3C7A89, .7));
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 90%);
+}
+
+.fold-two {
+	background: linear-gradient(to right, #3C7A89, rgba(#3C7A89, .7));
+	clip-path: polygon(0 0%, 100% 10%, 100% 90%, 0% 100%);
+}
