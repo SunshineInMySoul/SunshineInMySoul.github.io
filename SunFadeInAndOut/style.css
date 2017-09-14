@@ -1,3 +1,6 @@
+a {
+	text-decoration: none;
+}
 body {
 	background-color: lightblue;
 	text-align: center;
@@ -6,6 +9,10 @@ button {
 	display: inline-flex;
 	justify-content: center;
 }
+header {
+	text-align: center;
+	margin-bottom: 20px;
+}
 .the-sun {
 	background-color: yellow;
 	width: 500px;
@@ -13,8 +20,4 @@ button {
 	border-radius: 50%;
 	margin: auto;
 	margin-top: 30px;
-}
-header {
-	text-align: center;
-	margin-bottom: 20px;
 }
