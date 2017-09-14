@@ -2,16 +2,19 @@
 a {
 	text-decoration: none;
 	color: white;
+	margin: 10px;
 }
 button {
 	background-color: black;
 	color: white;
+	border-radius: 10px;
+	padding: 5px;
 }
 .container {
 	position: relative;
 	margin-top: 20px;
 	border: 1px solid #000;
-	height: 600px;
+	height: 550px;
 	background-color: linen;
 }
 header {
