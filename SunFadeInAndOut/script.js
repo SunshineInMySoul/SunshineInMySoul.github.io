@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(".btn1").click(function(){
-        $("div").fadeOut(700)
+        $(".the-sun").fadeOut(700)
     });
     $(".btn2").click(function(){
-        $("div").fadeIn(1000);
+        $(".the-sun").fadeIn(1000);
     });
 });
